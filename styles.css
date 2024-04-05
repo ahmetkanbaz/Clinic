@@ -7,4 +7,31 @@
 a {
   text-decoration: none;
   color: #000000;
+  transition: all .3s ease-in-out;
+}
+
+nav, footer {
+  background-color: #F2F2F2;
+}
+
+.nav-link {
+  font-size: 1.12rem;
+  color: #000000;
+}
+
+.nav-link:hover {
+  color: #0463FA;
+}
+
+.socialMedias a {
+  height: 40px;
+  width: 40px;
+  background-color: #FFFFFF;
+  color: #0463FA;
+  font-size: 1.1rem;
+}
+
+.socialMedias a:hover {
+  background-color: #0463FA;
+  color: #FFFFFF;
 }
