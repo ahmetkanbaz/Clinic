@@ -120,6 +120,18 @@ footer {
   margin-top: -10%;
 }
 
+.singleContact {
+  transition: all .3s ease-in-out;
+}
+
+.singleContact:hover {
+  background-color: #b9b9b9;
+}
+
+.singleContact:hover a {
+  color: #0463fa;
+}
+
 footer a:hover {
   color: #0463fa;
 }
